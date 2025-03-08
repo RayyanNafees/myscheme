@@ -1,62 +1,65 @@
-/* @jsxImportSource npm:hono/jsx */
 import { Hono } from "hono";
+import courses from "./courses.json" with { type: "json" };
+import getInfoFromCard from "./student.ts";
 
 const app = new Hono();
-
-const courses = (await fetch(
-	"https://zhcet-scheme-json-server.vercel.app/even/",
-).then((r) => r.json())) as Subject[];
-
-type Subject = {
-	id: string;
-	course_name: string;
-	date: string;
-	time: string;
-};
 
 app.get("/", async (c) => {
 	const enroll = c.req.query("enroll") ?? "GP4519";
 
-	const studentInfo = await fetch(
-		`https://rayyan-student.web.val.run?enroll=${enroll.toUpperCase()}`,
-	).then((r) => r.json());
-	const courseCodes = studentInfo.subjects.map((i: { code: string }) => i.code);
+	const studentInfo = await getInfoFromCard(enroll.toUpperCase());
 
-	const myScheme = courses
-		.filter((i) => courseCodes.includes(i.id))
-		.sort((a, b) => (a.date > b.date ? 1 : -1) + +(a.time > b.time));
+	const myScheme = studentInfo.subjects
+		.filter((i) => courses.find((j) => j.id === i.code))
+		.map((i) => ({
+			code: i.code,
+			name: i.subject,
+			date: courses.find((j) => j.id === i.code)?.date as string,
+			time: courses.find((j) => j.id === i.code)?.time as string,
+		}))
+		.sort(
+			(a, b) =>
+				(new Date(a.date) > new Date(b.date) ? 1 : -1) ,
+		);
+
+		console.log({myScheme});
 
 	return c.html(
-		<html>
+		<html lang="en">
 			<head>
-				<link rel="stylesheet" href="https://unpkg.com/@picocss/pico" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<link rel="stylesheet" href="https://unpkg.com/@picocss/pico" />
+				<script src="https://unpkg.com/@unocss/runtime" />
 				<title>My ZHCET Scheme</title>
 			</head>
 			<body>
-				<main class="container" style="position:relative;height:100vh;">
+				<main class="container">
 					<hgroup>
 						<h1>My Scheme</h1>
 						<h2>ZHCET Exam Scheme</h2>
 					</hgroup>
 
-					<label for="enrollment">Enter your enrollment number</label>
-					{/* biome-ignore lint/a11y/noRedundantRoles: <explanation> */}
-					{/* biome-ignore lint/a11y/useSemanticElements: <explanation> */}
-					<fieldset role="group">
-						<input type="search" name="enrollment" placeholder="e.g, GP4847" />
-						<button
-							type="submit"
-							onclick="window.location.href += ('?enroll=' + document.querySelector('input').value) "
-						>
-							Search
-						</button>
-					</fieldset>
+					<form action="/">
+						<label for="enrollment">Enter your enrollment number</label>
+						{/* biome-ignore lint/a11y/noRedundantRoles: <explanation> */}
+						{/* biome-ignore lint/a11y/useSemanticElements: <explanation> */}
+						<fieldset role="group">
+							<input
+								type="search"
+								name="enrollment"
+								placeholder="e.g, GP4847"
+							/>
+							<button
+								type="submit"
+							// onclick="window.location.href += ('?enroll=' + document.querySelector('input').value) "
+							>
+								Search
+							</button>
+						</fieldset>
+					</form>
 
-					<table style={{ display: enroll === "GP4519" ? "none" : "table" }}>
-						<caption style="font-size:xx-large;font-weight:bolder;margin-block:2rem">
-							Scheme
-						</caption>
+					<table >
+						<caption class="text-2xl font-bold my-10">Scheme</caption>
 						<thead>
 							<tr>
 								<th>Code</th>
@@ -66,10 +69,10 @@ app.get("/", async (c) => {
 							</tr>
 						</thead>
 						<tbody>
-							{myScheme?.map?.((i: Subject, n: number) => (
-								<tr key={i.id}>
-									<td>{i.id}</td>
-									<td>{i.course_name}</td>
+							{myScheme?.map?.((i) => (
+								<tr key={i.code}>
+									<td>{i.code}</td>
+									<td>{i.name}</td>
 									<td>{i.date}</td>
 									<td>{i.time}</td>
 								</tr>
@@ -92,6 +95,4 @@ app.get("/", async (c) => {
 	);
 });
 
-
-
-Deno.serve(app.fetch)
+Deno.serve(app.fetch);
