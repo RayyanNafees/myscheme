@@ -8,9 +8,9 @@ app.get("/", async (c) => {
 	const enroll = c.req.query("enroll") ?? "";
 
 	const studentInfo = !enroll ? { subjects: [] } : await getInfoFromCard(enroll.toUpperCase());
-
+	const modes = ['a', 'b']
 	const myScheme = !enroll ? [] : studentInfo.subjects
-		.filter((i) => courses.find((j) => j.id === i.code))
+		.filter((i) => courses.find((j) => j.id === i.code) && modes.includes(i.mode))
 		.map((i) => ({
 			code: i.code,
 			name: i.subject,

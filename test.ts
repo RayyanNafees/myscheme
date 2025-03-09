@@ -10,4 +10,5 @@ console.log(studentInfo.subjects.map((i) => ({
   name: i.subject,
   date: courses.find((j) => j.id === i.code)?.date,
   time: courses.find((j) => j.id === i.code)?.time,
+  mode: i.mode,
 })));
