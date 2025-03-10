@@ -1,0 +1,12 @@
+updates:
+  - version: 1.0.0
+    date: 10-2-2025
+    changes:
+      - Added support for downloading registration card
+      - Fixed mode 'c' subjetcs appearing
+      - Few date fixes for subjects shwoign 26 isntead of 27 march date
+  - version: 1.0.1
+    date: 10-3-2025
+    changes:
+      - New UI look with update log
+      - Subjects with a `,` & `.` now appear in the scheme
