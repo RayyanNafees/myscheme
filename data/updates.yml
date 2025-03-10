@@ -10,3 +10,4 @@ updates:
     changes:
       - New UI look with update log
       - Subjects with a `,` & `.` now appear in the scheme
+      - Compact mode

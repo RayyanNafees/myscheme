@@ -7,6 +7,7 @@ export const Scheme: FC<{
   enroll, myScheme
 }) => (
     <Layout>
+      <script defer src="https://unpkg.com/alpinejs" />
       <nav>
         <ul>
           <li>
@@ -47,16 +48,24 @@ export const Scheme: FC<{
             onchange="localStorage.setItem('enroll', this.value)"
             value={enroll}
           />
-          <button type="submit" // onclick="window.location.href += ('?enroll=' + document.querySelector('input').value) "
+          <button type="submit"
           >
             Search
           </button>
         </fieldset>
       </form>
 
-      <table style={{ display: !enroll ? "none" : "table" }}>
-        <caption class="text-2xl font-bold my-10">Scheme</caption>
+      <table style={{ display: !enroll ? "none" : "table" }} x-data='{ compact: false }'>
+
+        <caption class="text-2xl font-bold my-10">Scheme <small class="text-xs font-semibold" x-show="compact">(compact)</small></caption>
+
         <thead>
+          <tr>
+            <td colspan={4}>
+              {/* biome-ignore lint/a11y/useAriaPropsForRole: <explanation> */}
+              <legend>Compact: <input type="checkbox" role="switch" name="compact" x-model="compact" /></legend>
+            </td>
+          </tr>
           <tr>
             <th>Code</th>
             <th>Name</th>
@@ -65,15 +74,39 @@ export const Scheme: FC<{
           </tr>
         </thead>
         <tbody>
+
           {myScheme?.map?.((i) => (
             <tr key={i.code}>
-              <td>{i.code}</td>
-              <td>{i.name}</td>
-              <td>{i.date}</td>
-              <td>{i.time}</td>
+              <td x-text={`!compact?'${i.code}':'${i.code}'.toLowerCase()`}>{i.code}</td>
+              <td x-text={`!compact?'${i.code}':'${i.code}'.toLowerCase()`}>{i.name}</td>
+              <td x-text={`!compact?'${i.date}':new Date('${i.date}').getDate()`}>{i.date}</td>
+              <td x-text={`!compact?'${i.time}':'${i.time}'.split(' ')[0]`}>{i.time}</td>
             </tr>
           ))}
         </tbody>
+        <tfoot>
+          <tr>
+            <td colspan={4}>
+              {enroll && (
+                <form
+                  action="https://ctengg.amu.ac.in/web/reg_record.php"
+                  method="post"
+                  target="_blank"
+                >
+                  <input type="hidden" name="fac" value={enroll} />
+                  <input
+                    type="hidden"
+                    name="sem"
+                    value={new Date().getMonth() > 6 ? "odd" : "even"}
+                  />
+                  <input type="hidden" name="submit" value="Download" />
+                  <button type="submit" class="mb-10">
+                    Download Registeration Card
+                  </button>
+                </form>
+              )}</td>
+          </tr>
+        </tfoot>
       </table>
       <br />
       <br />
@@ -85,22 +118,5 @@ export const Scheme: FC<{
           </a>
         </small>
       </footer>
-      {enroll && (
-        <form
-          action="https://ctengg.amu.ac.in/web/reg_record.php"
-          method="post"
-          target="_blank"
-        >
-          <input type="hidden" name="fac" value={enroll} />
-          <input
-            type="hidden"
-            name="sem"
-            value={new Date().getMonth() > 6 ? "odd" : "even"}
-          />
-          <input type="hidden" name="submit" value="Download" />
-          <button type="submit" class="mb-10">
-            Download Registeration Card
-          </button>
-        </form>
-      )}
+
     </Layout>)
