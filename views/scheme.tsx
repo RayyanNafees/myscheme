@@ -78,7 +78,7 @@ export const Scheme: FC<{
           {myScheme?.map?.((i) => (
             <tr key={i.code}>
               <td x-text={`!compact?'${i.code}':'${i.code}'.toLowerCase()`}>{i.code}</td>
-              <td x-text={`!compact?'${i.code}':'${i.code}'.toLowerCase()`}>{i.name}</td>
+              <td x-text={`!compact?'${i.name}':'${i.name}'.toLowerCase()`}>{i.name}</td>
               <td x-text={`!compact?'${i.date}':new Date('${i.date}').getDate()`}>{i.date}</td>
               <td x-text={`!compact?'${i.time}':'${i.time}'.split(' ')[0]`}>{i.time}</td>
             </tr>
