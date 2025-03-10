@@ -77,7 +77,7 @@ export const Scheme: FC<{
       </table>
       <br />
       <br />
-      <footer style="position:fixed;bottom:0; width:100%;text-align:center; background-color:#13171f; padding:0.5rem">
+      <footer class="fixed bottom-0 w-full text-center bg-[#13171f] py-2">
         <small>
           Built with 🔥 by{" "}
           <a href="https://rayyano.vercel.app">
