@@ -3,12 +3,13 @@
     "@langchain/community": "npm:@langchain/community@^0.3.30",
     "hono": "jsr:@hono/hono@^4.7.1",
     "pdf-parse": "npm:pdf-parse@^1.1.1",
+    "tw-to-css": "npm:tw-to-css@^0.0.12",
     "twind": "npm:twind@^0.16.19",
     "valibot": "npm:valibot@^1.0.0-rc.1"
   },
   "tasks": {
     "start": "deno run --allow-net main.tsx",
-    "dev": "deno run --allow-net --watch main.tsx"
+    "dev": "deno run -RN --watch main.tsx"
   },
   "deploy": {
     "project": "270c773b-b08c-4e16-9367-f2ed3f439548",

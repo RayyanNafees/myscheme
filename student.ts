@@ -6,7 +6,7 @@ export const parseRegistrationCard = (dataArr: string[], enroll?: string) => {
   const subs = dataArr
     .map((s) =>
       s.match(
-        /^(\d{1,2})([A-Z]{2,3})([A-Z]{3}\d{4})([A-z\s\&\-,\.]+)([a-d])(\d+\.\d+)$/,
+        /^(\d{1,2})([A-Z]{2,3})([A-Z]{3}\d{4})([A-z\s\&\-,\.\(\)]+)([a-d])(\d+\.\d+)$/,
       )
     )
     .filter((i) => i !== null);
