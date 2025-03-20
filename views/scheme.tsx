@@ -19,9 +19,10 @@ export const Scheme: FC<{
             <img
               src="https://api.iconify.design/mdi/menu.svg?color=%235b6272"
               style={twi`w-7`}
+              alt="menu"
             />
           </label>
-          <label class="overlay" for="drawer-left"></label>
+          <label class="overlay" for="drawer-left">&nbsp;</label>
           <div class="drawer">
             <div class="drawer-content pt-10 flex flex-col h-full">
               <label
@@ -53,14 +54,10 @@ export const Scheme: FC<{
     </nav>
     <label for="enroll">Enter your enrollment number</label>
 
-    <form
-      action="/"
-      role="search"
+    {/* biome-ignore lint/a11y/useSemanticElements: <explanation> */}
+    <form action="/" role="search"
       onload="localStorage.getItem('enroll') && window.location.href += '?enroll=' + localStorage.getItem('enroll')"
     >
-      {/* biome-ignore lint/a11y/noRedundantRoles: <explanation> */}
-      {/* biome-ignore lint/a11y/useSemanticElements: <explanation> */}
-
       <input
         type="search"
         name="enroll"
@@ -86,11 +83,11 @@ export const Scheme: FC<{
       <thead>
         <tr>
           <td colspan={4}>
-            {/* biome-ignore lint/a11y/useAriaPropsForRole: <explanation> */}
             <legend>
               Compact:{" "}
               <input
                 type="checkbox"
+                // biome-ignore lint/a11y/useAriaPropsForRole: <explanation>
                 role="switch"
                 name="compact"
                 x-model="compact"
@@ -103,11 +100,12 @@ export const Scheme: FC<{
           <th>Name</th>
           <th>Date</th>
           <th>Time</th>
+          {/* <th>Learn</th> */}
         </tr>
       </thead>
       <tbody>
         {myScheme?.map?.((i) => (
-          <tr key={i.code}>
+          <tr class="uncompact" key={i.code}>
             <td x-text={`!compact?'${i.code}':'${i.code}'.toLowerCase()`}>
               {i.code}
             </td>
@@ -120,24 +118,41 @@ export const Scheme: FC<{
             <td x-text={`!compact?'${i.time}':'${i.time}'.split(' ')[0]`}>
               {i.time}
             </td>
+            {/* <td x-text={`!compact?'${i.time}':'${i.time}'.split(' ')[0]`}>
+              <a href={`/learn/${i.code}?name=${i.name}&date=${i.date}&time=${i.time}`} class="btn primary">Learn</a>
+            </td> */}
           </tr>
         ))}
+        {/* {myScheme?.map?.((i) => (
+          <tr class="compact" key={i.code}>
+            <td>
+              {i.code.toLowerCase()}
+            </td>
+            <td>
+              {i.name.toLowerCase()}
+            </td>
+            <td>
+              {new Date(i.date).getDate()}
+            </td>
+            <td >
+              {i.time.split(' ')[0]}
+            </td>
+            <td>
+              <a href={`/learn/${i.code}?name=${i.name}&date=${i.date}&time=${i.time}`} class="btn primary">Learn</a>
+            </td>
+          </tr>
+        ))} */}
       </tbody>
       <tfoot>
         <tr>
           <td colspan={4}>
             {enroll && (
               <form
-                action="https://ctengg.amu.ac.in/web/reg_record.php"
+                action={`https://ctengg.amu.ac.in/web/reg_record_${new Date().getMonth() > 6 ? "odd" : "even"}.php`}
                 method="post"
                 target="_blank"
               >
                 <input type="hidden" name="fac" value={enroll} />
-                <input
-                  type="hidden"
-                  name="sem"
-                  value={new Date().getMonth() > 6 ? "odd" : "even"}
-                />
                 <input type="hidden" name="submit" value="Download" />
                 <button type="submit">Download Registeration Card</button>
               </form>
