@@ -1,34 +1,32 @@
 import { Hono } from "hono";
 import courses from "./data/courses.json" with { type: "json" };
-import getInfoFromCard from "./student.ts";
+import getInfoFromCard from "./utils/student.ts";
 import { Scheme } from "./views/scheme.tsx";
 import { NotFound } from "./views/404.tsx";
 import Updates from "./views/updates.tsx";
 import { serveStatic } from "hono/deno";
+import { setCookie, getCookie, } from "hono/cookie";
+
 const app = new Hono();
 
 app.get("/", async (c) => {
-  const enroll = c.req.query("enroll") ?? "";
+  console.time("getInfoFromCard");
+  const hasCookie = getCookie(c, 'enroll')
+  const enroll = c.req.query("enroll") ?? hasCookie ?? '';
 
-  const studentInfo = !enroll
-    ? { subjects: [] }
-    : await getInfoFromCard(enroll.toUpperCase());
-  const modes = ["a", "b"];
-  const myScheme = !enroll
-    ? []
-    : studentInfo.subjects
-        .filter(
-          (i) => courses.find((j) => j.id === i.code) && modes.includes(i.mode),
-        )
-        .map((i) => ({
-          code: i.code,
-          name: i.subject,
-          date: courses.find((j) => j.id === i.code)?.date as string,
-          time: courses.find((j) => j.id === i.code)?.time as string,
-        }))
-        .sort((a, b) => (new Date(a.date) > new Date(b.date) ? 1 : -1));
+  if (!enroll)
+    return c.html(<Scheme enroll={enroll} myScheme={[]} />);
 
-  return c.html(<Scheme enroll={enroll} myScheme={myScheme} />);
+  if (!hasCookie)
+    setCookie(c, 'enroll', enroll, { maxAge: 60 * 60 * 24 * 30 });
+
+  const studentInfo = await getInfoFromCard(enroll.toUpperCase());
+
+  const subjectIds = studentInfo.subjects.map((i) => i.code);
+ 
+  const scheme = courses.filter(c=>subjectIds.includes(c.id) ).toSorted((a, b) => (new Date(a.date) > new Date(b.date) ? 1 : -1));
+  console.timeEnd("getInfoFromCard");
+  return c.html(<Scheme enroll={enroll} myScheme={scheme} />);
 });
 
 app.get("/updates", (c) => {

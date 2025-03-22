@@ -1,4 +1,4 @@
-import courses from "./data/courses.json" with { type: "json" };
+import courses from "../data/courses.json" with { type: "json" };
 import getInfoFromCard from "./student.ts";
 
 const enroll = Deno.args[0];
