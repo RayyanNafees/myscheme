@@ -1,7 +1,6 @@
 {
   "imports": {
     "@langchain/community": "npm:@langchain/community@^0.3.30",
-    "better-sqlite3": "npm:better-sqlite3@^11.9.1",
     "hono": "jsr:@hono/hono@^4.7.1",
     "pdf-parse": "npm:pdf-parse@^1.1.1",
     "tw-to-css": "npm:tw-to-css@^0.0.12",
