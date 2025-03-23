@@ -2,6 +2,14 @@ thead:has(input[type="checkbox"]:checked) ~ tbody.uncompact {
   display: none;
 }
 
+table:has(input[type="checkbox"]:checked) caption > small {
+  display: inline;
+}
+
 thead:has(input[type="checkbox"]:not(:checked)) ~ tbody.compact {
+  display: none;
+}
+
+table:has(input[type="checkbox"]:not(:checked)) caption > small {
   display: none;
 }
