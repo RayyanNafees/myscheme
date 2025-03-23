@@ -1,0 +1,7 @@
+thead:has(input[type="checkbox"]:checked) ~ tbody.uncompact {
+  display: none;
+}
+
+thead:has(input[type="checkbox"]:not(:checked)) ~ tbody.compact {
+  display: none;
+}

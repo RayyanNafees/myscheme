@@ -3,7 +3,7 @@ import { Layout } from "../layouts/base.tsx";
 import { twi } from "tw-to-css";
 import { Menu } from "./menu.tsx";
 import { Link } from "./link.tsx";
-
+import { memo } from "hono/jsx";
 export const Scheme: FC<{
   enroll: string;
   myScheme: {
@@ -14,17 +14,7 @@ export const Scheme: FC<{
   }[];
 }> = ({ enroll, myScheme }) => (
   <Layout>
-    <style>
-      {`
-        thead:has(input[type='checkbox']:checked) ~ tbody.uncompact {
-          display:none;
-        }
-
-        thead:has(input[type='checkbox']:not(:checkee)) ~ tbody.compact {
-          display:none;
-        }
-        `}
-    </style>
+    <link rel="stylesheet" href="/compact.css" />
     <nav>
       <ul>
         <li>
@@ -37,7 +27,9 @@ export const Scheme: FC<{
               alt="menu"
             />
           </label>
-          <label class="overlay" for="drawer-left">&nbsp;</label>
+          <label class="overlay" for="drawer-left">
+            &nbsp;
+          </label>
           <div class="drawer">
             <div class="drawer-content pt-10 flex flex-col h-full">
               <label
@@ -76,20 +68,15 @@ export const Scheme: FC<{
         name="enroll"
         id="enroll"
         placeholder="e.g, GP4847"
-        onchange="localStorage.setItem('enroll', this.value)"
         value={enroll}
+        pattern="[A-z]{2}\d{4}"
       />
       <input type="submit" value="Search" />
     </form>
 
-    <table
-      style={{ display: !enroll ? "none" : "table" }}
-    >
+    <table style={{ display: !enroll ? "none" : "table" }}>
       <caption style={twi`text-2xl font-bold my-10`}>
-        Scheme{" "}
-        <small style={twi`text-xs font-semibold`} x-show="compact">
-          (compact)
-        </small>
+        Scheme <small style={twi`text-xs font-semibold`}>(compact)</small>
       </caption>
 
       <thead>
@@ -119,52 +106,36 @@ export const Scheme: FC<{
       <tbody class="uncompact">
         {myScheme?.map?.((i) => (
           <tr key={i.course}>
-            <td>
-              {i.course}
-            </td>
-            <td>
-              {i.course_name}
-            </td>
-            <td>
-              {i.date}
-            </td>
-            <td>
-              {i.time}
-            </td>
-            <td>
+            <td>{i.course}</td>
+            <td>{i.course_name}</td>
+            <td>{i.date}</td>
+            <td>{i.time}</td>
+            {/*<td>
               <a
                 href={`/learn/${i.course}?name=${i.course_name}&date=${i.date}&time=${i.time}`}
                 class="btn primary"
               >
                 Learn
               </a>
-            </td>
+            </td>*/}
           </tr>
         ))}
       </tbody>
       <tbody class="compact">
         {myScheme?.map?.((i) => (
           <tr key={i.course}>
-            <td>
-              {i.course.toLowerCase()}
-            </td>
-            <td>
-              {i.course_name.toLowerCase()}
-            </td>
-            <td>
-              {new Date(i.date).getDate()}
-            </td>
-            <td>
-              {i.time.split(" ")[0]}
-            </td>
-            <td>
+            <td>{i.course.toLowerCase()}</td>
+            <td>{i.course_name.toLowerCase()}</td>
+            <td>{new Date(i.date).getDate()}</td>
+            <td>{i.time.split(" ")[0]}</td>
+            {/* <td>
               <a
                 href={`/learn/${i.course}?name=${i.course_name}&date=${i.date}&time=${i.time}`}
                 class="btn primary"
               >
                 Learn
               </a>
-            </td>
+            </td>*/}
           </tr>
         ))}
       </tbody>
