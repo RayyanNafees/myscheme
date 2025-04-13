@@ -31,7 +31,7 @@ app.get("/updates", (c) => {
   return c.html(<Updates />);
 });
 
-app.get('/api/student/:enroll', c=>{
+app.get('/api/student/:enroll', async c=>{
   const enroll = c.req.param('enroll')
     const studentInfo = await getInfoFromCard(enroll.toUpperCase());
   return c.json(studentInfo)
