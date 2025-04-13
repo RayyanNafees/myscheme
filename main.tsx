@@ -10,7 +10,6 @@ import { setCookie, getCookie } from "hono/cookie";
 const app = new Hono();
 
 app.get("/", async (c) => {
-  console.time("getInfoFromCard");
   const hasCookie = getCookie(c, "enroll");
   const enroll = c.req.query("enroll") ?? hasCookie ?? "";
 
@@ -25,16 +24,18 @@ app.get("/", async (c) => {
   const scheme = courses
     .filter((c) => subjectIds.includes(c.id))
     .toSorted((a, b) => (new Date(a.date) > new Date(b.date) ? 1 : -1));
-  console.timeEnd("getInfoFromCard");
-  console.time("rendering");
-  const resp = c.html(<Scheme enroll={enroll} myScheme={scheme} />);
-  console.timeEnd("rendering");
-  return resp;
+  return  c.html(<Scheme enroll={enroll} myScheme={scheme} />);
 });
 
 app.get("/updates", (c) => {
   return c.html(<Updates />);
 });
+
+app.get('/api/student/:enroll', c=>{
+  const enroll = c.req.param('enroll')
+    const studentInfo = await getInfoFromCard(enroll.toUpperCase());
+  return c.json(studentInfo)
+})
 
 app.use("/scheme.pdf", serveStatic({ path: "./public/scheme.pdf" }));
 app.use("/compact.css", serveStatic({ path: "./public/compact.css" }));
