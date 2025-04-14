@@ -6,6 +6,7 @@ import { NotFound } from "./views/404.tsx";
 import Updates from "./views/updates.tsx";
 import { serveStatic } from "hono/deno";
 import { setCookie, getCookie } from "hono/cookie";
+import { pdfText } from "jsr:@pdf/pdftext";
 
 const app = new Hono();
 
@@ -30,7 +31,12 @@ app.get("/", async (c) => {
 app.get("/updates", (c) => {
   return c.html(<Updates />);
 });
+app.post('/api/file',async c=>{
+  const file = await c.req.blob()
+  const data = await pdfText(file);
+  return c.text(data)
 
+})
 app.get('/api/student/:enroll', async c=>{
   const enroll = c.req.param('enroll')
     const studentInfo = await getInfoFromCard(enroll.toUpperCase());
