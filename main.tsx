@@ -24,12 +24,13 @@ app.get("/", async (c) => {
     time: string;
     course_name: string;
   }[];
+  console.time('getInfoFromCard')
   const storedScheme = getCookie(c, "scheme");
   if (!storedScheme) {
     console.log("FETCHING REGISTERATION CARD");
-    const studentInfo = (await getInfoFromCard(enroll.toUpperCase())).subjects;
+    const studentInfo = await getInfoFromCard(enroll.toUpperCase());
 
-    const subjectIds = studentInfo.map((i) => i.code);
+    const subjectIds = studentInfo.subjects.map((i) => i.code);
 
     scheme = courses
       .filter((c) => subjectIds.includes(c.course))
@@ -41,8 +42,8 @@ app.get("/", async (c) => {
   } else {
     scheme = JSON.parse(storedScheme);
   }
-
-  let text: string = (await kv.get<string>([enroll])).value as string;
+ 
+  let text =  (await kv.get<string>([enroll])).value as string;
   console.timeEnd("getInfoFromCard");
   console.time("rendering");
 
