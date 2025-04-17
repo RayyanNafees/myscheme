@@ -3,7 +3,7 @@ import { Layout } from "../layouts/base.tsx";
 import { twi } from "tw-to-css";
 import { Menu } from "./menu.tsx";
 import { Link } from "./link.tsx";
-import { memo } from "hono/jsx";
+// import { memo } from "hono/jsx";
 export const Scheme: FC<{
   enroll: string;
   myScheme: {
@@ -110,14 +110,16 @@ export const Scheme: FC<{
             <td>{i.course_name}</td>
             <td>{i.date}</td>
             <td>{i.time}</td>
-            {/*<td>
+            {
+              /*<td>
               <a
                 href={`/learn/${i.course}?name=${i.course_name}&date=${i.date}&time=${i.time}`}
                 class="btn primary"
               >
                 Learn
               </a>
-            </td>*/}
+            </td>*/
+            }
           </tr>
         ))}
       </tbody>
@@ -127,15 +129,17 @@ export const Scheme: FC<{
             <td>{i.course.toLowerCase()}</td>
             <td>{i.course_name.toLowerCase()}</td>
             <td>{new Date(i.date).getDate()}</td>
-            <td>{i.time.split(" ")[0]}</td>
-            {/* <td>
+            <td>{i.time.split("-")[0].replace(/Noon|AM|PM/, "")}</td>
+            {
+              /* <td>
               <a
                 href={`/learn/${i.course}?name=${i.course_name}&date=${i.date}&time=${i.time}`}
                 class="btn primary"
               >
                 Learn
               </a>
-            </td>*/}
+            </td>*/
+            }
           </tr>
         ))}
       </tbody>

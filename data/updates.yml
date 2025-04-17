@@ -11,3 +11,8 @@ updates:
       - New UI look with update log
       - Subjects with a `,` & `.` now appear in the scheme
       - Compact mode
+  - version: 1.2
+    date: 17-04-2025
+    changes:
+      - Updated Datesheet to End Sem exams
+      - Faster response times due to cookie cache

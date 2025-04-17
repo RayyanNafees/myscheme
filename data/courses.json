@@ -1,1703 +1,1752 @@
 [
   {
-    "id": "ACS1110",
     "course": "ACS1110",
-    "date": "Fri Mar 21 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Applied Chemistry"
+    "course_name": "Applied Chemistry",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ACS1112",
     "course": "ACS1112",
-    "date": "Fri Mar 21 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Applied Chemistry"
+    "course_name": "Applied Chemistry",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ARC1320",
-    "course": "ARC1320",
-    "date": "Fri Mar 21 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Construction and Materials - I"
-  },
-  {
-    "id": "CEA1120",
     "course": "CEA1120",
-    "date": "Fri Mar 21 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Strength of Materials"
+    "course_name": "Strength of Materials",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS1120",
     "course": "AMS1120",
-    "date": "Sat Mar 22 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Applied Mathematics-II"
+    "course_name": "Applied Mathematics-II",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS1122",
     "course": "AMS1122",
-    "date": "Sat Mar 22 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Applied Mathematics-II"
+    "course_name": "Applied Mathematics-II",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ARC1340",
-    "course": "ARC1340",
-    "date": "Sat Mar 22 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Architectural Drawing-II"
-  },
-  {
-    "id": "APS1110",
     "course": "APS1110",
-    "date": "Mon Mar 24 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Applied Physics"
+    "course_name": "Applied Physics",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "APS1112",
     "course": "APS1112",
-    "date": "Mon Mar 24 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Applied Physics"
+    "course_name": "Applied Physics",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ARC1360",
-    "course": "ARC1360",
-    "date": "Mon Mar 24 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Arts and  Graphics"
-  },
-  {
-    "id": "ARC1620",
-    "course": "ARC1620",
-    "date": "Tue Mar 25 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Architecture Design - I"
-  },
-  {
-    "id": "EEA1110",
     "course": "EEA1110",
-    "date": "Tue Mar 25 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Principles of Electrical Engineering"
+    "course_name": "Principles of Electrical Engineering",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "EEA1112",
     "course": "EEA1112",
-    "date": "Tue Mar 25 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Principles of Electrical Engineering"
+    "course_name": "Principles of Electrical Engineering",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "EZH1110",
-    "course": "EZH1110",
-    "date": "Tue Mar 25 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "English"
-  },
-  {
-    "id": "EZH1112",
-    "course": "EZH1112",
-    "date": "Tue Mar 25 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "English"
-  },
-  {
-    "id": "ARH1020",
-    "course": "ARH1020",
-    "date": "Wed Mar 26 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Man Society & Buildings"
-  },
-  {
-    "id": "ELA1110",
     "course": "ELA1110",
-    "date": "Wed Mar 26 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Principles of Electronics Engineering "
+    "course_name": "Principles of Electronics Engineering",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ELA1112",
     "course": "ELA1112",
-    "date": "Wed Mar 26 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Principles of Electronics Engineering "
+    "course_name": "Principles of Electronics Engineering",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CEA1110",
     "course": "CEA1110",
-    "date": "Thu Mar 27 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Environmental Studies"
+    "course_name": "Environmental Studies",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CEU1112",
     "course": "CEU1112",
-    "date": "Thu Mar 27 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Environmental Studies"
+    "course_name": "Environmental Studies",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEA1120",
-    "course": "MEA1120",
-    "date": "Thu Mar 27 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Engineering Mechanics"
+    "course": "EZH1110",
+    "course_name": "English",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEA1122",
-    "course": "MEA1122",
-    "date": "Thu Mar 27 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Engineering Mechanics"
+    "course": "EZH1112",
+    "course_name": "English",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEA1110",
     "course": "MEA1110",
-    "date": "Sun Mar 23 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Engineering Thermodynamics"
+    "course_name": "Engineering Thermodynamics",
+    "date": "Tue May 20",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEA1112",
     "course": "MEA1112",
-    "date": "Sun Mar 23 2025",
-    "time": "8:30 am - 9:30 am",
-    "course_name": "Thermal Sciences"
+    "course_name": "Thermal Sciences",
+    "date": "Tue May 20",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ACA2120",
+    "course": "MEA1120",
+    "course_name": "Engineering Mechanics",
+    "date": "Thu May 22",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "MEA1122",
+    "course_name": "Engineering Mechanics",
+    "date": "Thu May 22",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC1320",
+    "course_name": "Construction and Materials - I",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC1340",
+    "course_name": "Architectural Drawing-II",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC1360",
+    "course_name": "Arts and Graphics",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC1620",
+    "course_name": "Architecture Design - I",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "9:00AM-3:00PM"
+  },
+  {
+    "course": "ARH1020",
+    "course_name": "Man Society & Buildings",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
     "course": "ACA2120",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Material Science & Engg Materials"
+    "course_name": "Material Science & Engg Materials",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AEC2220",
     "course": "AEC2220",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Applied Thermodynamics & Heat Transfer"
+    "course_name": "Applied Thermodynamics & Heat Transfer",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AEC2222",
     "course": "AEC2222",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Applied Thermodynamics & Heat Transfer"
+    "course_name": "Applied Thermodynamics & Heat Transfer",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AIC2042",
     "course": "AIC2042",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Principles of Machine Learning"
+    "course_name": "Principles of Machine Learning",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AIC2130",
     "course": "AIC2130",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Statistical Learning"
+    "course_name": "Statistical Learning",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS2120",
     "course": "AMS2120",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Mathematics-I"
+    "course_name": "Mathematics-IV",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS2122",
     "course": "AMS2122",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Applied Mathematics-I"
+    "course_name": "Applied Mathematics-IV",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS2422",
     "course": "AMS2422",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Applied Numerical Methods"
+    "course_name": "Applied Numerical Methods",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS2620",
     "course": "AMS2620",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Numerical Analysis, Transforms and Probability"
+    "course_name": "Numerical Analysis, Transforms and Probability",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS2622",
     "course": "AMS2622",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Numerical Analysis, Transforms and Probability"
+    "course_name": "Numerical Analysis, Transforms and Probability",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ARC2040",
-    "course": "ARC2040",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Pre-Modern/Western Architecture"
-  },
-  {
-    "id": "CEH2210",
     "course": "CEH2210",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Construction Management I"
+    "course_name": "Construction Management I",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CHA2020",
-    "course": "CHA2020",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Biology for Engineers"
-  },
-  {
-    "id": "CHC2002",
     "course": "CHC2002",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Process Instrumentation"
+    "course_name": "Process Instrumentation",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CHH2130",
     "course": "CHH2130",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Social,Cultural & Educational Movements of India"
+    "course_name": "Social, Cultural & Educational Movements of India",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "COA2602",
-    "course": "COA2602",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Data Structures and Programming"
-  },
-  {
-    "id": "EEA2020",
-    "course": "EEA2020",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Technology"
-  },
-  {
-    "id": "EEA2022",
-    "course": "EEA2022",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Technology & Control"
-  },
-  {
-    "id": "EEC2120",
-    "course": "EEC2120",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Machines II"
-  },
-  {
-    "id": "EEC2122",
-    "course": "EEC2122",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Machines II"
-  },
-  {
-    "id": "FTC2042",
-    "course": "FTC2042",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Food Preservation and Processing"
-  },
-  {
-    "id": "PKC2040",
-    "course": "PKC2040",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Separation Proc. in Hydrocarbon Industries"
-  },
-  {
-    "id": "PKC2080",
-    "course": "PKC2080",
-    "date": "Fri Mar 21 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Alternate Fuels and Energy Resources"
-  },
-  {
-    "id": "ACS2022",
-    "course": "ACS2022",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Engineering Chemistry"
-  },
-  {
-    "id": "ACS2110",
-    "course": "ACS2110",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Engineering Chemistry"
-  },
-  {
-    "id": "AEC2762",
-    "course": "AEC2762",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Additive Manufacturing"
-  },
-  {
-    "id": "AIC2140",
-    "course": "AIC2140",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Design & Analysis of Algorithm"
-  },
-  {
-    "id": "AIC2142",
-    "course": "AIC2142",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Design & Analysis of Algorithm"
-  },
-  {
-    "id": "ARC2060",
-    "course": "ARC2060",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": ""
-  },
-  {
-    "id": "CEA2162",
-    "course": "CEA2162",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Environmental Engineering"
-  },
-  {
-    "id": "CEC2170",
-    "course": "CEC2170",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Environmental Engineering I"
-  },
-  {
-    "id": "COC2140",
-    "course": "COC2140",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Design & Analysis of Algorithm"
-  },
-  {
-    "id": "COC2142",
-    "course": "COC2142",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Design & Analysis of Algorithm"
-  },
-  {
-    "id": "EEA2010",
     "course": "EEA2010",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Engineering"
+    "course_name": "Electrical Engineering",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "EEA2012",
     "course": "EEA2012",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Engineering"
+    "course_name": "Electrical Engineering",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "FTC2082",
-    "course": "FTC2082",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Bakery and Confectionery  Technology"
+    "course": "EEA2020",
+    "course_name": "Electrical Technology",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEC2130",
-    "course": "MEC2130",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Machine Design I"
+    "course": "EEA2022",
+    "course_name": "Electrical Technology & Control",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEC2132",
-    "course": "MEC2132",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Machine Design I"
+    "course": "EEC2120",
+    "course_name": "Electrical Machines II",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "PKC2070",
-    "course": "PKC2070",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Reaction Kinetics and Reactor Design"
+    "course": "EEC2122",
+    "course_name": "Electrical Machines II",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "PKC2242",
-    "course": "PKC2242",
-    "date": "Sun Mar 23 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Reaction Kinetics and Reactor Design"
+    "course": "FTC2042",
+    "course_name": "Food Preservation and Processing",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AEC2450",
-    "course": "AEC2450",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Vehicle Body Design"
+    "course": "PKC2040",
+    "course_name": "Separation Proc. in Hydrocarbon Industries",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AEC2452",
-    "course": "AEC2452",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Vehicle Body Design"
+    "course": "ACS2022",
+    "course_name": "Engineering Chemistry",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AIC2152",
-    "course": "AIC2152",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "AI Tools & Techniques"
+    "course": "ACS2110",
+    "course_name": "Engineering Chemistry",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ARC2380",
-    "course": "ARC2380",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Construction and Materials-III"
-  },
-  {
-    "id": "CEC2130",
-    "course": "CEC2130",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Fluid Mechanics"
-  },
-  {
-    "id": "CEC2132",
-    "course": "CEC2132",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Fluid Mechanics"
-  },
-  {
-    "id": "CHC2022",
-    "course": "CHC2022",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Chemical Reaction Engineering"
-  },
-  {
-    "id": "CHC2050",
-    "course": "CHC2050",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Chemical Engineering Thermodynamics"
-  },
-  {
-    "id": "COC2080",
-    "course": "COC2080",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Computer Architecture"
-  },
-  {
-    "id": "COC2082",
-    "course": "COC2082",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Computer Architecture"
-  },
-  {
-    "id": "EEC2310",
-    "course": "EEC2310",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Power System Engineering"
-  },
-  {
-    "id": "EEC2312",
-    "course": "EEC2312",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Power System Engineering"
-  },
-  {
-    "id": "ELA2432",
-    "course": "ELA2432",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Representation and Analysis of Random Signals"
-  },
-  {
-    "id": "ELC2210",
-    "course": "ELC2210",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Measurement and Instrumentation"
-  },
-  {
-    "id": "FTC2050",
-    "course": "FTC2050",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Chemical Engg Thermodynamics"
-  },
-  {
-    "id": "FTC2092",
-    "course": "FTC2092",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Food Law, Safety Standards &   Regulations"
-  },
-  {
-    "id": "MEC2210",
-    "course": "MEC2210",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Applied Thermodynamics"
-  },
-  {
-    "id": "MEC2212",
-    "course": "MEC2212",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Applied Thermodynamics"
-  },
-  {
-    "id": "PKC2020",
-    "course": "PKC2020",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Chemical Engineering Thermodynamics"
-  },
-  {
-    "id": "PKC2222",
-    "course": "PKC2222",
-    "date": "Mon Mar 24 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Chemical Engineering Thermodynamics"
-  },
-  {
-    "id": "AEC2410",
     "course": "AEC2410",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Manufacturing Technology"
+    "course_name": "Manufacturing Technology",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AEC2412",
     "course": "AEC2412",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Manufacturing Technology"
+    "course_name": "Manufacturing Technology",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS2630",
-    "course": "AMS2630",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Discrete Structures"
+    "course": "AIC2140",
+    "course_name": "Design & Analysis of Algorithm",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMS2632",
-    "course": "AMS2632",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Discrete Structures"
+    "course": "AIC2142",
+    "course_name": "Design & Analysis of Algorithm",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ARC2640",
-    "course": "ARC2640",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Architecture Design - III"
+    "course": "CEA2162",
+    "course_name": "Environmental Engineering",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CEC2190",
-    "course": "CEC2190",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Hydrology"
+    "course": "CEC2130",
+    "course_name": "Fluid Mechanics",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CEC2192",
-    "course": "CEC2192",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Hydrology"
+    "course": "CHA2020",
+    "course_name": "Biology for Engineers",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CHC2060",
-    "course": "CHC2060",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Heat Transfer Operations"
+    "course": "COC2140",
+    "course_name": "Design & Analysis of Algorithm",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CHC2070",
-    "course": "CHC2070",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Numerical Methods in Chemical Engg."
+    "course": "COC2142",
+    "course_name": "Design & Analysis of Algorithm",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CHC2080",
-    "course": "CHC2080",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": ""
-  },
-  {
-    "id": "EEC2510",
-    "course": "EEC2510",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Measurement"
-  },
-  {
-    "id": "EEC2512",
-    "course": "EEC2512",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electrical Measurement"
-  },
-  {
-    "id": "ELC2130",
-    "course": "ELC2130",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Digital Electronics"
-  },
-  {
-    "id": "ELC2132",
-    "course": "ELC2132",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Digital Electronics"
-  },
-  {
-    "id": "FTC2060",
-    "course": "FTC2060",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Heat Transfer Operations"
-  },
-  {
-    "id": "FTC2152",
-    "course": "FTC2152",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Meat Poultry and Marine Product Technology"
-  },
-  {
-    "id": "MEC2410",
-    "course": "MEC2410",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Manufacturing Technology-I"
-  },
-  {
-    "id": "MEC2412",
-    "course": "MEC2412",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Manufacturing Technology-I"
-  },
-  {
-    "id": "PKC2262",
-    "course": "PKC2262",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Mass Transfer Operations"
-  },
-  {
-    "id": "PKC3050",
-    "course": "PKC3050",
-    "date": "Tue Mar 25 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Mass Transfer Operations"
-  },
-  {
-    "id": "AMS2320",
-    "course": "AMS2320",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Numerical Methods & Optimization"
-  },
-  {
-    "id": "AMS2322",
-    "course": "AMS2322",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Numerical Methods & Optimization"
-  },
-  {
-    "id": "CEA2180",
-    "course": "CEA2180",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Surveying"
-  },
-  {
-    "id": "CEC2180",
-    "course": "CEC2180",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Surveying"
-  },
-  {
-    "id": "CEC2182",
-    "course": "CEC2182",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Surveying"
-  },
-  {
-    "id": "CHC2092",
-    "course": "CHC2092",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Equilibrium  Stage Processes"
-  },
-  {
-    "id": "COC2090",
-    "course": "COC2090",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Software Engineering"
-  },
-  {
-    "id": "ELA2010",
-    "course": "ELA2010",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Logic & Digital Circuit"
-  },
-  {
-    "id": "ELA2012",
-    "course": "ELA2012",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Logic & Digital Circuit"
-  },
-  {
-    "id": "ELA2412",
-    "course": "ELA2412",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Fundamentals of Digital Signal Processing"
-  },
-  {
-    "id": "ELC2140",
-    "course": "ELC2140",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electronic Circuits"
-  },
-  {
-    "id": "ELC2152",
-    "course": "ELC2152",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Analog Electronics"
-  },
-  {
-    "id": "FTC2172",
-    "course": "FTC2172",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Food Packaging and Storage Engineering"
-  },
-  {
-    "id": "PKC2282",
-    "course": "PKC2282",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Introduction to Petroleum Engineering"
-  },
-  {
-    "id": "PKE2510",
-    "course": "PKE2510",
-    "date": "Wed Mar 26 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Introduction To Petroleum Engg."
-  },
-  {
-    "id": "CEC2200",
-    "course": "CEC2200",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Structural Mechanics"
-  },
-  {
-    "id": "CEC2202",
-    "course": "CEC2202",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Structural Mechanics"
-  },
-  {
-    "id": "EEA2042",
-    "course": "EEA2042",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Automotive Electrical & Electronic System"
-  },
-  {
-    "id": "EEC2210",
     "course": "EEC2210",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Power Electronics-I"
+    "course_name": "Power Electronics-I",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "EEC2212",
     "course": "EEC2212",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Power Electronics-I"
+    "course_name": "Power Electronics-I",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ELA2410",
-    "course": "ELA2410",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Signals & Systems"
+    "course": "ELA2432",
+    "course_name": "Representation and Analysis of Random Signals",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ELA2510",
-    "course": "ELA2510",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electromagnetics"
+    "course": "ELC2210",
+    "course_name": "Measurement and Instrumentation",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ELC2512",
-    "course": "ELC2512",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Electromagnetics"
+    "course": "FTC2082",
+    "course_name": "Bakery and Confectionery Technology",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "FTE2012",
-    "course": "FTE2012",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Extrusion Technology"
+    "course": "MEC2410",
+    "course_name": "Manufacturing Technology-I",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEC2440",
-    "course": "MEC2440",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Manufacturing Technology-II"
+    "course": "MEC2412",
+    "course_name": "Manufacturing Technology-I",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "PKH2202",
-    "course": "PKH2202",
-    "date": "Thu Mar 27 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Health, Safety and Environment Management"
+    "course": "MEC2430",
+    "course_name": "Material Science",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ELC2420",
+    "course": "PKC2070",
+    "course_name": "Reaction Kinetics and Reactor Design",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKC2080",
+    "course_name": "Alternate Fuels and Energy Resources",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKC2242",
+    "course_name": "Reaction Kinetics and Reactor Design",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKE2510",
+    "course_name": "Introduction To Petroleum Engg.",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AEC2450",
+    "course_name": "Vehicle Body Design",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AEC2452",
+    "course_name": "Vehicle Body Design",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AIC2150",
+    "course_name": "AI Tools & Techniques",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AIC2152",
+    "course_name": "AI Tools & Techniques",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2132",
+    "course_name": "Fluid Mechanics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2170",
+    "course_name": "Environmental Engineering I",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CHC2022",
+    "course_name": "Chemical Reaction Engineering",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CHC2050",
+    "course_name": "Chemical Engineering Thermodynamics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "COC2080",
+    "course_name": "Computer Architecture",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "COC2082",
+    "course_name": "Computer Architecture",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "EEC2310",
+    "course_name": "Power System Engineering",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "EEC2312",
+    "course_name": "Power System Engineering",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELC2130",
+    "course_name": "Digital Electronics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELC2132",
+    "course_name": "Digital Electronics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "FTC2050",
+    "course_name": "Chemical Engg Thermodynamics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "FTC2092",
+    "course_name": "Food Law, Safety Standards & Regulations",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "MEC2130",
+    "course_name": "Machine Design I",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "MEC2132",
+    "course_name": "Machine Design I",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKC2020",
+    "course_name": "Chemical Engineering Thermodynamics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKC2222",
+    "course_name": "Chemical Engineering Thermodynamics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AEC2762",
+    "course_name": "Additive Manufacturing",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AMS2630",
+    "course_name": "Discrete Structures",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AMS2632",
+    "course_name": "Discrete Structures",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2182",
+    "course_name": "Surveying",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2190",
+    "course_name": "Hydrology",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CHC2060",
+    "course_name": "Heat Transfer Operations",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CHC2070",
+    "course_name": "Numerical Methods in Chemical Engg.",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CHC2082",
+    "course_name": "Mass Transfer Operations",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "EEC2510",
+    "course_name": "Electrical Measurement",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "EEC2512",
+    "course_name": "Electrical Measurement",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELC2140",
+    "course_name": "Electronic Circuits",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELC2152",
+    "course_name": "Analog Electronics",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "FTC2060",
+    "course_name": "Heat Transfer Operations",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "FTC2152",
+    "course_name": "Meat Poultry and Marine Product Technology",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "MEC2210",
+    "course_name": "Applied Thermodynamics",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "MEC2212",
+    "course_name": "Applied Thermodynamics",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKC2262",
+    "course_name": "Mass Transfer Operations",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKC3050",
+    "course_name": "Mass Transfer Operations",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AMS2320",
+    "course_name": "Numerical Methods & Optimization",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "AMS2322",
+    "course_name": "Numerical Methods & Optimization",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2180",
+    "course_name": "Surveying",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2192",
+    "course_name": "Hydrology",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CHC2092",
+    "course_name": "Equilibrium Stage Processes",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "COC2090",
+    "course_name": "Software Engineering",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELA2010",
+    "course_name": "Logic & Digital Circuit",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELA2012",
+    "course_name": "Logic & Digital Circuit",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELA2412",
+    "course_name": "Fundamentals of Digital Signal Processing",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
     "course": "ELC2420",
-    "date": "Sat Mar 22 2025",
-    "time": "11:00 am - 12 noon",
-    "course_name": "Principles of Communication Engineering I"
+    "course_name": "Principles of Communication Engineering I",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ACS3011",
+    "course": "FTC2172",
+    "course_name": "Food Packaging and Storage Engineering",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKC2282",
+    "course_name": "Introduction to Petroleum Engineering",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2200",
+    "course_name": "Structural Mechanics",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "CEC2202",
+    "course_name": "Structural Mechanics",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "EEA2042",
+    "course_name": "Automotive Electrical & Electronic System",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELA2410",
+    "course_name": "Signals & Systems",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELA2510",
+    "course_name": "Electromagnetics",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELC2410",
+    "course_name": "Signals and Systems",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ELC2512",
+    "course_name": "Electromagnetics",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "FTE2012",
+    "course_name": "Extrusion Technology",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "MEC2440",
+    "course_name": "Manufacturing Technology-II",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "PKH2202",
+    "course_name": "Health, Safety and Environment Management",
+    "date": "Mon May 19",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC2040",
+    "course_name": "Pre-Modern/Western Architecture",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC2060",
+    "course_name": "Building Services-II (Electrical, Illumination and Acoustics)",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC2380",
+    "course_name": "Construction and Materials-III",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC2640",
+    "course_name": "Architecture Design - III",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "9:00AM-3:00PM"
+  },
+  {
+    "course": "CEA2180",
+    "course_name": "Surveying",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
     "course": "ACS3011",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Instrumental Techniques in Food Analysis"
+    "course_name": "Instrumental Techniques in Food Analysis",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "AEC3120",
     "course": "AEC3120",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Machinery Dynamics"
+    "course_name": "Machinery Dynamics",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "AIC3140",
     "course": "AIC3140",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Deep Learning"
+    "course_name": "Deep Learning",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ARC3080",
-    "course": "ARC3080",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Town Planning"
+    "course": "CEC3110",
+    "course_name": "Design of Concrete Structures-I",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CEC3160",
     "course": "CEC3160",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Design of Concrete Structure-II"
+    "course_name": "Design of Concrete Structure-II",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CHC3130",
     "course": "CHC3130",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Chemical Process Industries-I"
+    "course_name": "Chemical Process Industries-I",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EEC3110",
-    "course": "EEC3110",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Electrical Drives"
-  },
-  {
-    "id": "MEC3120",
-    "course": "MEC3120",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Machinery Dynamics"
-  },
-  {
-    "id": "PKC3020",
-    "course": "PKC3020",
-    "date": "Fri Mar 21 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Petrochemical Technology - I"
-  },
-  {
-    "id": "AEC3220",
-    "course": "AEC3220",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "I.C. Engines"
-  },
-  {
-    "id": "AIE4370",
-    "course": "AIE4370",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Natural Language Processing"
-  },
-  {
-    "id": "ARC3400",
-    "course": "ARC3400",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Construction & Materials - I"
-  },
-  {
-    "id": "CEC3170",
-    "course": "CEC3170",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Transportation Engineering"
-  },
-  {
-    "id": "CHC3140",
-    "course": "CHC3140",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Process Equipment Design"
-  },
-  {
-    "id": "COC3150",
-    "course": "COC3150",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Computer Graphics"
-  },
-  {
-    "id": "EEA3020",
-    "course": "EEA3020",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Process Instrumentation and Control"
-  },
-  {
-    "id": "EEC3220",
-    "course": "EEC3220",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "New and Renewable Energy Sources"
-  },
-  {
-    "id": "PKC3030",
-    "course": "PKC3030",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Heat Transfer Operations"
-  },
-  {
-    "id": "PKC3060",
-    "course": "PKC3060",
-    "date": "Sun Mar 23 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Process Engineering and Equipment Design"
-  },
-  {
-    "id": "AEC3250",
-    "course": "AEC3250",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Automotive Emission & Control"
-  },
-  {
-    "id": "AIC3120",
-    "course": "AIC3120",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Database Management System"
-  },
-  {
-    "id": "ARC3420",
-    "course": "ARC3420",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Interior Design"
-  },
-  {
-    "id": "CEC3180",
-    "course": "CEC3180",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Design of Steel Structures"
-  },
-  {
-    "id": "CHC3150",
-    "course": "CHC3150",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Process Dynamics and Control"
-  },
-  {
-    "id": "COC3120",
-    "course": "COC3120",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Database Management System"
-  },
-  {
-    "id": "EEC3320",
-    "course": "EEC3320",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Electrical Power Gen. & Utilization"
-  },
-  {
-    "id": "ELC3430",
-    "course": "ELC3430",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Digital Signal Processing "
-  },
-  {
-    "id": "FTC3040",
-    "course": "FTC3040",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Fruits and Vegetable Processing Technology"
-  },
-  {
-    "id": "MEC3230",
-    "course": "MEC3230",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Energy Conversion System"
-  },
-  {
-    "id": "PKC3080",
-    "course": "PKC3080",
-    "date": "Mon Mar 24 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Natural Gas Processing"
-  },
-  {
-    "id": "AEC3340",
-    "course": "AEC3340",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Automotive Hydraulic Pneumatic Systems"
-  },
-  {
-    "id": "AIC3130",
-    "course": "AIC3130",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Computer Networks"
-  },
-  {
-    "id": "ARC3660",
-    "course": "ARC3660",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Architectural Design - "
-  },
-  {
-    "id": "CEC3190",
-    "course": "CEC3190",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Engineering Hydraulics-II"
-  },
-  {
-    "id": "CHC3160",
-    "course": "CHC3160",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Energy Engineering and Management"
-  },
-  {
-    "id": "COC3130",
-    "course": "COC3130",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Computer Networks"
-  },
-  {
-    "id": "EEC3410",
-    "course": "EEC3410",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Dynamic System Analysis"
-  },
-  {
-    "id": "ELC3620",
-    "course": "ELC3620",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Digital System Design"
-  },
-  {
-    "id": "FTC3050",
-    "course": "FTC3050",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Meat, and Marine Product Technology"
-  },
-  {
-    "id": "MEC3320",
-    "course": "MEC3320",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Fluid Machinery"
-  },
-  {
-    "id": "PKE3510",
-    "course": "PKE3510",
-    "date": "Tue Mar 25 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Heterogeneous Reaction Engineering"
-  },
-  {
-    "id": "CEA3180",
-    "course": "CEA3180",
-    "date": "Wed Mar 26 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Structural Design-II"
-  },
-  {
-    "id": "CEC3200",
-    "course": "CEC3200",
-    "date": "Wed Mar 26 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Structural Analysis-II "
-  },
-  {
-    "id": "CHC3170",
-    "course": "CHC3170",
-    "date": "Wed Mar 26 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Chemical Reaction Engineering -II"
-  },
-  {
-    "id": "COC3110",
     "course": "COC3110",
-    "date": "Wed Mar 26 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Theory of Computation"
+    "course_name": "Theory of Computation",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EEC3710",
-    "course": "EEC3710",
-    "date": "Wed Mar 26 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Microcontroller Systems and Appl."
+    "course": "EEC3110",
+    "course_name": "Electrical Drives",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ELC3420",
     "course": "ELC3420",
-    "date": "Wed Mar 26 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Digital Communication"
+    "course_name": "Digital Communication",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "FTC3060",
-    "course": "FTC3060",
-    "date": "Wed Mar 26 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Food Packaging and Transportation Technology"
+    "course": "MEC3120",
+    "course_name": "Machinery Dynamics",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CEE4510",
-    "course": "CEE4510",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Concrete Technology"
+    "course": "PKC3020",
+    "course_name": "Petrochemical Technology - I",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CHC3180",
-    "course": "CHC3180",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Transport Phenomena"
+    "course": "AEC3220",
+    "course_name": "I.C. Engines",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "COA3600",
-    "course": "COA3600",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Data Structure and Programming"
+    "course": "AIE4370",
+    "course_name": "Natural Language Processing",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EZH3010",
-    "course": "EZH3010",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Fundamentals of Entrepreneurship"
+    "course": "CEC3150",
+    "course_name": "Structural Analysis-I",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EZH3020",
-    "course": "EZH3020",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Intellectual Property Rights for Engineers"
+    "course": "CEC3170",
+    "course_name": "Transportation Engineering",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EZH3030",
-    "course": "EZH3030",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Patent law for Engineers"
+    "course": "CHC3140",
+    "course_name": "Process Equipment Design",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "FTC3070",
-    "course": "FTC3070",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Food Plant Design"
+    "course": "COC3150",
+    "course_name": "Computer Graphics",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "PKC3040",
-    "course": "PKC3040",
-    "date": "Thu Mar 27 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Transport Phenomena"
+    "course": "EEA3020",
+    "course_name": "Process Instrumentation and Control",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CEE4530",
-    "course": "CEE4530",
-    "date": "Sat Mar 22 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Traffic Engineering"
+    "course": "EEC3220",
+    "course_name": "New and Renewable Energy Sources",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "FTC3080",
-    "course": "FTC3080",
-    "date": "Sat Mar 22 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "Food Process Equipment Design"
+    "course": "ELC3430",
+    "course_name": "Digital Signal Processing",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "MEC3220",
     "course": "MEC3220",
-    "date": "Sat Mar 22 2025",
-    "time": "9:45 pm - 10:45 pm",
-    "course_name": "I.C. Engines"
+    "course_name": "I.C. Engines",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "COE4590",
-    "course": "COE4590",
-    "date": "Mon Mar 24 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Distributed and Parallel Systems"
+    "course": "PKC3030",
+    "course_name": "Heat Transfer Operations",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EEE4720",
-    "course": "EEE4720",
-    "date": "Sun Mar 23 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Machine Learning"
+    "course": "PKC3060",
+    "course_name": "Process Engineering and Equipment Design",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ARH4200",
-    "course": "ARH4200",
-    "date": "Mon Mar 24 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Building Construction Management & Economics"
+    "course": "AEC3250",
+    "course_name": "Automotive Emission & Control",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CHE4610",
-    "course": "CHE4610",
-    "date": "Mon Mar 24 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Colloidal and Surface Science"
+    "course": "AIC3120",
+    "course_name": "Database Management System",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CHE4710",
-    "course": "CHE4710",
-    "date": "Mon Mar 24 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": ""
+    "course": "CEC3180",
+    "course_name": "Design of Steel Structures",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EEE4520",
-    "course": "EEE4520",
-    "date": "Mon Mar 24 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Process Instrumentation & Control"
+    "course": "CHC3150",
+    "course_name": "Process Dynamics and Control",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "FTE4050",
-    "course": "FTE4050",
-    "date": "Mon Mar 24 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Emerging Technologies in Food Processing"
+    "course": "COC3120",
+    "course_name": "Database Management System",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "AIE4260",
+    "course": "EEC3320",
+    "course_name": "Electrical Power Gen. & Utilization",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ELC3620",
+    "course_name": "Digital System Design",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "FTC3040",
+    "course_name": "Fruits and Vegetable Processing Technology",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "MEC3230",
+    "course_name": "Energy Conversion System",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "PKC3080",
+    "course_name": "Natural Gas Processing",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "AEC3340",
+    "course_name": "Automotive Hydraulic Pneumatic Systems",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "AIC3130",
+    "course_name": "Computer Networks",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CEC3190",
+    "course_name": "Engineering Hydraulics-II",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CHC3160",
+    "course_name": "Energy Engineering and Management",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "COC3130",
+    "course_name": "Computer Networks",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EEC3410",
+    "course_name": "Dynamic System Analysis",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "FTC3050",
+    "course_name": "Meat, and Marine Product Technology",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "MEC3320",
+    "course_name": "Fluid Machinery",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "PKE3510",
+    "course_name": "Heterogeneous Reaction Engineering",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CEC3200",
+    "course_name": "Structural Analysis-II",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CHC3170",
+    "course_name": "Chemical Reaction Engineering -II",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EEC3710",
+    "course_name": "Microcontroller Systems and Appl.",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "FTC3060",
+    "course_name": "Food Packaging and Transportation Technology",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CEE4510",
+    "course_name": "Concrete Technology",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CHC3180",
+    "course_name": "Transport Phenomena",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EZH3010",
+    "course_name": "Fundamentals of Entrepreneurship",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EZH3020",
+    "course_name": "Intellectual Property Rights for Engineers",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EZH3030",
+    "course_name": "Patent law for Engineers",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "FTC3070",
+    "course_name": "Food Plant Design",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "PKC3040",
+    "course_name": "Transport Phenomena",
+    "date": "Sun May 18",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CEE4530",
+    "course_name": "Traffic Engineering",
+    "date": "Tue May 20",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "FTC3080",
+    "course_name": "Food Process Equipment Design",
+    "date": "Tue May 20",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ARC3080",
+    "course_name": "Town Planning",
+    "date": "Tue May 06",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ARC3400",
+    "course_name": "Construction & Materials - IV",
+    "date": "Thu May 08",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ARC3420",
+    "course_name": "Interior Design",
+    "date": "Sat May 10",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ARC3660",
+    "course_name": "Architectural Design - V",
+    "date": "Wed May 14",
+    "year": " 2025",
+    "time": "9:00AM-3:00PM"
+  },
+  {
+    "course": "CEA3180",
+    "course_name": "Structural Design-II",
+    "date": "Fri May 16",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
     "course": "AIE4260",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Computational Intelligence"
+    "course_name": "Computational Intelligence",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ARC4180",
-    "course": "ARC4180",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Urban Design"
-  },
-  {
-    "id": "CEE4570",
     "course": "CEE4570",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Rock Engineering"
+    "course_name": "Rock Engineering",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CEE4630",
     "course": "CEE4630",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Bridge Engineering"
+    "course_name": "Bridge Engineering",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CHC4230",
     "course": "CHC4230",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Process Safety and Risk Analysis"
+    "course_name": "Process Safety and Risk Analysis",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "COE4380",
     "course": "COE4380",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Selected Topics in Computer  Applications"
+    "course_name": "Selected Topics in Computer Applications",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EEE4120",
     "course": "EEE4120",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Electric Vehicles & Traction "
+    "course_name": "Electric Vehicles & Traction",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ELE4410",
-    "course": "ELE4410",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Multimedia Systems & Networks"
-  },
-  {
-    "id": "FTC4050",
-    "course": "FTC4050",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Food Industry Waste Management"
-  },
-  {
-    "id": "MEE4110",
-    "course": "MEE4110",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Fracture Mechanics"
-  },
-  {
-    "id": "MEE4250",
-    "course": "MEE4250",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Energy Audit Conservation & Management"
-  },
-  {
-    "id": "MEE4280",
-    "course": "MEE4280",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Nano Fluid & its Application"
-  },
-  {
-    "id": "PKC4020",
-    "course": "PKC4020",
-    "date": "Tue Mar 25 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Process Utilities and Energy Management "
-  },
-  {
-    "id": "AIE4570",
-    "course": "AIE4570",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Internet of Things"
-  },
-  {
-    "id": "ARC4680",
-    "course": "ARC4680",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Architectural Design - VII"
-  },
-  {
-    "id": "CEE4660",
-    "course": "CEE4660",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Pre-Stressed Concrete"
-  },
-  {
-    "id": "CEE4730",
-    "course": "CEE4730",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Elements of Earthquake & Wind Engineering"
-  },
-  {
-    "id": "CHC4240",
-    "course": "CHC4240",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Modeling ,Simulation and Optimization"
-  },
-  {
-    "id": "COE4520",
-    "course": "COE4520",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Mobile Computing"
-  },
-  {
-    "id": "EEE4320",
-    "course": "EEE4320",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Power Quality"
-  },
-  {
-    "id": "ELE4110",
     "course": "ELE4110",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "RF System Design"
+    "course_name": "RF System Design",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "FTE4110",
-    "course": "FTE4110",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Technology of Spices, Plantation Crops & Flavors"
+    "course": "FTC4050",
+    "course_name": "Food Industry Waste Management",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "MEE4120",
-    "course": "MEE4120",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Introduction to FEM"
+    "course": "MEE4110",
+    "course_name": "Fracture Mechanics",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "MEE4510",
-    "course": "MEE4510",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Fundamental of Robotics"
+    "course": "MEE4250",
+    "course_name": "Energy Audit Conservation & Management",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "PKE4540",
-    "course": "PKE4540",
-    "date": "Wed Mar 26 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Fertilizer Technology"
+    "course": "MEE4280",
+    "course_name": "Nano Fluid & its Applications",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ARE4240",
-    "course": "ARE4240",
-    "date": "Thu Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Low Cost Buildings"
+    "course": "PKC4020",
+    "course_name": "Process Utilities and Energy Management",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "CHE4560",
-    "course": "CHE4560",
-    "date": "Wed Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Industrial Pollution Control"
+    "course": "AIE4570",
+    "course_name": "Internet of Things",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "EEE4350",
-    "course": "EEE4350",
-    "date": "Wed Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "HVDC and FACTS Technology"
+    "course": "CEE4580",
+    "course_name": "Dam Engineering",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ELE4120",
+    "course": "CEE4730",
+    "course_name": "Elements of Earthquake & Wind Engineering",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CHC4240",
+    "course_name": "Modeling, Simulation and Optimization",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "COE4520",
+    "course_name": "Mobile Computing",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EEE4320",
+    "course_name": "Power Quality",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
     "course": "ELE4120",
-    "date": "Wed Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Semiconductor Device Modelling"
+    "course_name": "Semiconductor Device Modelling",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "FTE4340",
-    "course": "FTE4340",
-    "date": "Wed Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Modeling and Simulation of Food Processes"
+    "course": "FTE4050",
+    "course_name": "Emerging Technologies in Food Processing",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "MEE4211",
-    "course": "MEE4211",
-    "date": "Wed Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Introduction to Combustion"
+    "course": "MEE4120",
+    "course_name": "Introduction to FEM",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "MEE4520",
-    "course": "MEE4520",
-    "date": "Wed Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Introduction to Microfluidics"
+    "course": "MEE4510",
+    "course_name": "Fundamental of Robotics",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "PKE4510",
     "course": "PKE4510",
-    "date": "Wed Mar 27 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "Process Instrumentation"
+    "course_name": "Process Instrumentation",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
   },
   {
-    "id": "ACO3080",
+    "course": "CEE4660",
+    "course_name": "Pre-Stressed Concrete",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CHE4560",
+    "course_name": "Industrial Pollution Control",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "COE4590",
+    "course_name": "Distributed and Parallel Systems",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EEE4350",
+    "course_name": "HVDC and FACTS Technology",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ELE4410",
+    "course_name": "Multimedia Systems & Networks",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "FTE4110",
+    "course_name": "Technology of Spices, Plantation Crops & Flavors",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "MEE4211",
+    "course_name": "Introduction to Combustion",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "MEE4520",
+    "course_name": "Introduction to Microfluidics",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "PKE4540",
+    "course_name": "Fertilizer Technology",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CHE4610",
+    "course_name": "Colloidal and Surface Science",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "CHE4710",
+    "course_name": "CAD of Process Equipment",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EEE4520",
+    "course_name": "Process Instrumentation & Control",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "FTE4340",
+    "course_name": "Modeling and Simulation of Food Processes",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "EEE4720",
+    "course_name": "Machine Learning",
+    "date": "Sat May 17",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
     "course": "ACO3080",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Atmospheric Chemistry"
+    "course_name": "Atmospheric Chemistry",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "AMO4430",
     "course": "AMO4430",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Advanced Numerical Methods"
+    "course_name": "Advanced Numerical Methods",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "APO3040",
     "course": "APO3040",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Biophysics"
+    "course_name": "Biophysics",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "ARO4280",
-    "course": "ARO4280",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Urban and Regional Planning"
-  },
-  {
-    "id": "CEO4720",
     "course": "CEO4720",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Advanced Environmental Engineering"
+    "course_name": "Advanced Environmental Engineering",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "CEO4740",
     "course": "CEO4740",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Water Resources & Watershed Management"
+    "course_name": "Water Resources & Watershed Management",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "COO4470",
     "course": "COO4470",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Selected Topics in Computer Engineering II"
+    "course_name": "Selected Topics in Computer Engineering II",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "EEO4210",
     "course": "EEO4210",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Renewable Energy Sources"
+    "course_name": "Renewable Energy Sources",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEO4220",
     "course": "MEO4220",
-    "date": "Sat Mar 22 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Non Conventional Energy"
+    "course_name": "Non-Conventional Energy",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "COE4420",
+    "course": "ELO4310",
+    "course_name": "Artificial Intelligence & Neural Networks",
+    "date": "Sat May 24",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "COA2602",
+    "course_name": "Data Structures and Programming",
+    "date": "Sat May 24",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "COA3600",
+    "course_name": "Data Structure and Programming",
+    "date": "Sat May 24",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
     "course": "COE4420",
-    "date": "Sun Mar 23 2025",
-    "time": "12:15 pm - 1:15 pm",
-    "course_name": "VLSI Design Tool Techniques"
+    "course_name": "VLSI Design Tool Techniques",
+    "date": "Sat May 24",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEH2450",
     "course": "MEH2450",
-    "date": "Sun Mar 23 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Engineering Economy  & Management"
+    "course_name": "Engineering Economy & Management",
+    "date": "Sun May 25",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEH2542",
-    "course": "MEH2542",
-    "date": "Sun Mar 23 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": ""
+    "course": "MEH2452",
+    "course_name": "Engineering Economy & Management",
+    "date": "Sun May 25",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   },
   {
-    "id": "MEH3450",
     "course": "MEH3450",
-    "date": "Sun Mar 23 2025",
-    "time": "1:30 pm - 2:30 pm",
-    "course_name": "Engineering Economy & Management"
+    "course_name": "Engineering Economy & Management",
+    "date": "Sun May 25",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
+  },
+  {
+    "course": "ARC4180",
+    "course_name": "Urban Design",
+    "date": "Wed May 07",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ARC4680",
+    "course_name": "Architectural Design - VII",
+    "date": "Fri May 09",
+    "year": " 2025",
+    "time": "9:00AM-3:00PM"
+  },
+  {
+    "course": "ARE4240",
+    "course_name": "Low Cost Buildings",
+    "date": "Tue May 13",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ARH4200",
+    "course_name": "Building Construction Management & Economics",
+    "date": "Thu May 15",
+    "year": " 2025",
+    "time": "3:00PM-5:00PM"
+  },
+  {
+    "course": "ARO4280",
+    "course_name": "Urban and Regional Planning",
+    "date": "Fri May 23",
+    "year": " 2025",
+    "time": "10:00AM-12:00Noon"
   }
 ]

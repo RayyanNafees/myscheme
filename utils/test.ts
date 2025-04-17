@@ -8,7 +8,7 @@ const studentInfo = await getInfoFromCard(enroll.toUpperCase());
 console.log(studentInfo.subjects.map((i) => ({
   code: i.code,
   name: i.subject,
-  date: courses.find((j) => j.id === i.code)?.date,
-  time: courses.find((j) => j.id === i.code)?.time,
+  date: courses.find((j) => j.course === i.code)?.date,
+  time: courses.find((j) => j.course === i.code)?.time,
   mode: i.mode,
 })));

@@ -6,7 +6,7 @@
   },
   "tasks": {
     "start": "deno run --allow-net main.tsx",
-    "dev": "deno run -RN --watch main.tsx"
+    "dev": "deno run -RN --unstable-kv --watch main.tsx"
   },
   "deploy": {
     "project": "270c773b-b08c-4e16-9367-f2ed3f439548",
