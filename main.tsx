@@ -8,7 +8,6 @@ import { serveStatic } from "hono/deno";
 import { getCookie, setCookie } from "hono/cookie";
 import { pdfText } from "jsr:@pdf/pdftext";
 const app = new Hono();
-const kv = await Deno.openKv();
 
 app.get("/", async (c) => {
   const hasCookie = getCookie(c, "enroll");
@@ -24,7 +23,7 @@ app.get("/", async (c) => {
     time: string;
     course_name: string;
   }[];
-  console.time('getInfoFromCard')
+  console.time("getInfoFromCard");
   const storedScheme = getCookie(c, "scheme");
   if (!storedScheme) {
     console.log("FETCHING REGISTERATION CARD");
@@ -42,15 +41,16 @@ app.get("/", async (c) => {
   } else {
     scheme = JSON.parse(storedScheme);
   }
- 
-  let text =  (await kv.get<string>([enroll])).value as string;
+
+  let text = getCookie(c, "schemeHTML");
+
   console.timeEnd("getInfoFromCard");
   console.time("rendering");
 
   if (!text) {
     const resp = c.html(<Scheme enroll={enroll} myScheme={scheme} />);
     text = await (await resp).text();
-    await kv.set([enroll], text);
+    setCookie(c, "schemeHTML", text, { maxAge: 60 * 60 * 24 * 30 });
   }
 
   console.timeEnd("rendering");
