@@ -8,7 +8,7 @@ import { serveStatic } from "hono/deno";
 import { getCookie, setCookie } from "hono/cookie";
 import { pdfText } from "jsr:@pdf/pdftext";
 const app = new Hono();
-
+const kv = await Deno.openKv();
 app.get("/", async (c) => {
   const hasCookie = getCookie(c, "enroll");
   const enroll = c.req.query("enroll") ?? hasCookie ?? "";
@@ -24,7 +24,7 @@ app.get("/", async (c) => {
     course_name: string;
   }[];
   console.time("getInfoFromCard");
-  const storedScheme = getCookie(c, "scheme");
+  const storedScheme = getCookie(c, `${enroll}-scheme`);
   if (!storedScheme) {
     console.log("FETCHING REGISTERATION CARD");
     const studentInfo = await getInfoFromCard(enroll.toUpperCase());
@@ -35,26 +35,29 @@ app.get("/", async (c) => {
       .filter((c) => subjectIds.includes(c.course))
       .toSorted((a, b) => (new Date(a.date) > new Date(b.date) ? 1 : -1));
 
-    setCookie(c, "scheme", JSON.stringify(scheme), {
+    setCookie(c, `${enroll}-scheme`, JSON.stringify(scheme), {
       maxAge: 60 * 60 * 24 * 30,
     });
   } else {
     scheme = JSON.parse(storedScheme);
   }
 
-  let text = getCookie(c, "schemeHTML");
+  // let text = getCookie(c, `${enroll}-schemeHTML`);
+  let text = (await kv.get<string>(['schemeHTML', enroll])).value as string;
 
   console.timeEnd("getInfoFromCard");
   console.time("rendering");
 
   if (!text) {
+    console.log("rendering.....");
     const resp = c.html(<Scheme enroll={enroll} myScheme={scheme} />);
     text = await (await resp).text();
-    setCookie(c, "schemeHTML", text, { maxAge: 60 * 60 * 24 * 30 });
+    // setCookie(c, 'schemeHTML', enroll, text, { maxAge: 60 * 60 * 24 * 30 });
+    await kv.set(['schemeHTML', enroll], text);
   }
 
   console.timeEnd("rendering");
-  return c.html(text);
+  return new Response(text, {headers: {"Content-Type": "text/html"}});
 });
 
 app.get("/updates", (c) => {
