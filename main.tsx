@@ -7,8 +7,17 @@ import Updates from "./views/updates.tsx";
 import { serveStatic } from "hono/deno";
 import { getCookie, setCookie } from "hono/cookie";
 import { pdfText } from "jsr:@pdf/pdftext";
+import { parseAttendance } from "./utils/parse-attendance.tsx";
 const app = new Hono();
 const kv = await Deno.openKv();
+
+app.get("/attendance", async (c) => {
+  const facultyNo = c.req.query("faculty") ?? "23aebea229";
+  const attendance = await parseAttendance(facultyNo);
+  setCookie(c, "facultyNo", facultyNo, { maxAge: 60 * 60 * 24 * 30 });
+  return c.json(attendance);
+});
+
 app.get("/", async (c) => {
   const hasCookie = getCookie(c, "enroll");
   const enroll = c.req.query("enroll") ?? hasCookie ?? "";
@@ -43,7 +52,7 @@ app.get("/", async (c) => {
   }
 
   // let text = getCookie(c, `${enroll}-schemeHTML`);
-  let text = (await kv.get<string>(['schemeHTML', enroll])).value as string;
+  let text = (await kv.get<string>(["schemeHTML", enroll])).value as string;
 
   console.timeEnd("getInfoFromCard");
   console.time("rendering");
@@ -53,11 +62,11 @@ app.get("/", async (c) => {
     const resp = c.html(<Scheme enroll={enroll} myScheme={scheme} />);
     text = await (await resp).text();
     // setCookie(c, 'schemeHTML', enroll, text, { maxAge: 60 * 60 * 24 * 30 });
-    await kv.set(['schemeHTML', enroll], text);
+    await kv.set(["schemeHTML", enroll], text);
   }
 
   console.timeEnd("rendering");
-  return new Response(text, {headers: {"Content-Type": "text/html"}});
+  return new Response(text, { headers: { "Content-Type": "text/html" } });
 });
 
 app.get("/updates", (c) => {

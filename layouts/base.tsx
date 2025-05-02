@@ -1,3 +1,4 @@
+import { twi } from "tw-to-css";
 import type { FC } from "hono/jsx";
 
 export const Layout: FC = (props) => (
@@ -25,16 +26,11 @@ export const Layout: FC = (props) => (
         href="https://cdn.jsdelivr.net/npm/rippleui@1.12.1/dist/css/styles.css"
       />
       <link rel="stylesheet" href="https://unpkg.com/@picocss/pico" />
-      <style>
-        {`:root {
-                          background-color:#13171f
-                        }`}
-      </style>
     </head>
-    <body>
+    <body style={twi`bg-[#13171f]`}>
       <main class="container">{props.children}</main>
 
-      <script defer src="https://unpkg.com/@unocss/runtime" />
+      {/* <script defer src="https://unpkg.com/@unocss/runtime" /> */}
     </body>
   </html>
 );

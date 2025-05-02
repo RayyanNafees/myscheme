@@ -3,6 +3,7 @@ import { Layout } from "../layouts/base.tsx";
 import { twi } from "tw-to-css";
 import { Menu } from "./menu.tsx";
 import { Link } from "./link.tsx";
+import Footer from "./footer.tsx";
 // import { memo } from "hono/jsx";
 export const Scheme: FC<{
   enroll: string;
@@ -165,15 +166,6 @@ export const Scheme: FC<{
     </table>
     <br />
     <br />
-    <footer
-      style={twi`fixed bottom-0 left-0 w-full text-center bg-[#13171f] py-2`}
-    >
-      <small>
-        Built with 🔥 by{" "}
-        <a href="https://rayyano.vercel.app">
-          <i>Diggaj</i>
-        </a>
-      </small>
-    </footer>
+    <Footer />
   </Layout>
 );

@@ -13,3 +13,7 @@ thead:has(input[type="checkbox"]:not(:checked)) ~ tbody.compact {
 table:has(input[type="checkbox"]:not(:checked)) caption > small {
   display: none;
 }
+
+.fire::after {
+  content: "🔥";
+}
