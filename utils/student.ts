@@ -54,7 +54,7 @@ export default async function (enroll: string) {
 				"Content-Type": "application/x-www-form-urlencoded",
 			},
 			body: new URLSearchParams({
-				fac: enroll,
+				fac: enroll.toUpperCase(),
 				submit: "Download",
 			}),
 		},
@@ -66,3 +66,5 @@ export default async function (enroll: string) {
 
 	return parseRegistrationCard(dataArr);
 }
+
+export type StudentInfo = Awaited<ReturnType<typeof parseRegistrationCard>>;

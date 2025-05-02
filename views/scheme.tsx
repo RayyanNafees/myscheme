@@ -4,18 +4,21 @@ import { twi } from "tw-to-css";
 import { Menu } from "./menu.tsx";
 import { Link } from "./link.tsx";
 import Footer from "./footer.tsx";
+
 // import { memo } from "hono/jsx";
 export const Scheme: FC<{
   enroll: string;
+  attendance: Record<string, string>;
   myScheme: {
     course: string;
     course_name: string;
     date: string;
     time: string;
   }[];
-}> = ({ enroll, myScheme }) => (
+}> = ({ enroll, myScheme, attendance: att }) => (
   <Layout>
     <link rel="stylesheet" href="/compact.css" />
+
     <nav>
       <ul>
         <li>
@@ -82,7 +85,7 @@ export const Scheme: FC<{
 
       <thead>
         <tr>
-          <td colspan={4}>
+          <td colspan={5}>
             <legend>
               Compact:{" "}
               <input
@@ -100,53 +103,78 @@ export const Scheme: FC<{
           <th>Name</th>
           <th>Date</th>
           <th>Time</th>
-          {/* <th>Learn</th> */}
+          <th>Attend %</th>
         </tr>
       </thead>
 
       <tbody class="uncompact">
         {myScheme?.map?.((i) => (
-          <tr key={i.course}>
-            <td>{i.course}</td>
-            <td>{i.course_name}</td>
-            <td>{i.date}</td>
-            <td>{i.time}</td>
+          <tr
+            key={i.course}
+            style={+att[i.course] > 65
+              ? twi`text-blue-100 `
+              : twi`text-red-100 `}
+          >
+            <td data-short={+att[i.course] < 65}>{i.course}</td>
+            <td data-short={+att[i.course] < 65}>{i.course_name}</td>
+            <td data-short={+att[i.course] < 65}>{i.date}</td>
+            <td data-short={+att[i.course] < 65}>{i.time}</td>
+            <td data-short={+att[i.course] < 65}>{att[i.course]}</td>
             {
-              /*<td>
-              <a
-                href={`/learn/${i.course}?name=${i.course_name}&date=${i.date}&time=${i.time}`}
-                class="btn primary"
-              >
-                Learn
-              </a>
-            </td>*/
+              /* <td
+              hx-get={`/attendance?enroll=${enroll}&code=${i.course}`}
+            >
+              <div class="htmx-indicator">
+                <img
+                  src="https://api.iconify.design/mdi/loading.svg?color=%235b6272"
+                  alt="loading"
+                  height="30"
+                  width="30"
+                  style={twi`w-5 h-5 animate-spin`}
+                />
+              </div>
+            </td> */
             }
           </tr>
         ))}
       </tbody>
       <tbody class="compact">
         {myScheme?.map?.((i) => (
-          <tr key={i.course}>
-            <td>{i.course.toLowerCase()}</td>
-            <td>{i.course_name.toLowerCase()}</td>
-            <td>{new Date(i.date).getDate()}</td>
-            <td>{i.time.split("-")[0].replace(/Noon|AM|PM/, "")}</td>
+          <tr
+            key={i.course}
+          >
+            <td data-short={+att[i.course] < 65}>{i.course.toLowerCase()}</td>
+            <td data-short={+att[i.course] < 65}>
+              {i.course_name.toLowerCase()}
+            </td>
+            <td data-short={+att[i.course] < 65}>
+              {new Date(i.date).getDate()}
+            </td>
+            <td data-short={+att[i.course] < 65}>
+              {i.time.split("-")[0].replace(/Noon|AM|PM/, "")}
+            </td>
+            <td data-short={+att[i.course] < 65}>{att[i.course]}</td>
             {
-              /* <td>
-              <a
-                href={`/learn/${i.course}?name=${i.course_name}&date=${i.date}&time=${i.time}`}
-                class="btn primary"
-              >
-                Learn
-              </a>
-            </td>*/
+              /* <td
+              hx-get={`/attendance?enroll=${enroll}&code=${i.course}`}
+            >
+              <div class="htmx-indicator">
+                <img
+                  src="https://api.iconify.design/mdi/loading.svg?color=%235b6272"
+                  alt="loading"
+                  height="30"
+                  width="30"
+                  style={twi`w-5 h-5 animate-spin`}
+                />
+              </div>
+            </td> */
             }
           </tr>
         ))}
       </tbody>
       <tfoot>
         <tr>
-          <td colspan={4}>
+          <td colspan={5}>
             {enroll && (
               <form
                 action={`https://ctengg.amu.ac.in/web/reg_record_${

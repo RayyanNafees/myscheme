@@ -17,3 +17,14 @@ table:has(input[type="checkbox"]:not(:checked)) caption > small {
 .fire::after {
   content: "🔥";
 }
+
+td[data-short="true"] {
+  color: hsl(10, 100%, 80%);
+}
+
+.diggaj {
+  color: hsl(200, 99%, 58%);
+  text-decoration: underline;
+  font-style: italic;
+  margin-left: 0.5rem;
+}

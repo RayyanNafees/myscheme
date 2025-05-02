@@ -1,6 +1,6 @@
 /* @jsxImportSource npm:hono/jsx */
 import * as cheerio from "npm:cheerio";
-import { Hono } from "hono";
+import { type Context, Hono } from "hono";
 import { Attendance } from "../views/attendance.tsx";
 
 const app = new Hono();
@@ -12,24 +12,19 @@ export type AttendanceType = {
   percentage: number;
   isShort: boolean;
   updated_at: string;
-  next_attend: number;
-  next_miss: number;
+};
+
+export type AttendanceInfo = {
+  name: string;
+  faculty: string;
+  attendance: AttendanceType[];
 };
 
 export default app;
 
-export const parseAttendance = async (facultyNo: string) => {
-  const getAttendedChange = (
-    attended: number,
-    total: number,
-    current: number,
-  ) => +(((attended + 1) / (total + 1) * 100) - current).toFixed(2);
-
-  const getMissedChange = (
-    attended: number,
-    total: number,
-    current: number,
-  ) => +((attended / (total + 1) * 100) - current).toFixed(2);
+export const parseAttendance = async (
+  facultyNo: string,
+): Promise<AttendanceInfo> => {
 
   const html = await fetch(
     `https://ctengg.amu.ac.in/web/table.php?id=${facultyNo}`,
@@ -52,8 +47,6 @@ export const parseAttendance = async (facultyNo: string) => {
       total: +total,
       attended: +attended,
       percentage: +percentage,
-      next_attend: getAttendedChange(+attended, +total, +percentage),
-      next_miss: getMissedChange(+attended, +total, +percentage),
       isShort: remark === "SHORT",
       updated_at,
     });
@@ -62,7 +55,7 @@ export const parseAttendance = async (facultyNo: string) => {
   return { name, faculty, attendance };
 };
 
-app.get("/", async (c) => {
+app.get("/", async (c: Context) => {
   const facultyNo = c.req.query("faculty") ??
     "23aebea229";
   const attendance = await parseAttendance(facultyNo);

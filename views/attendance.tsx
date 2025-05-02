@@ -38,8 +38,6 @@ export const Attendance: FC<AttendanceProps> = (props) => (
             <td>{a.total}</td>
             <td>{a.attended}</td>
             <td>{a.percentage}</td>
-            <td>{a.next_attend}</td>
-            <td>{a.next_miss}</td>
             <td>{a.updated_at}</td>
           </tr>
         ))}

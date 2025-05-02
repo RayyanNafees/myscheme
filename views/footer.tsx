@@ -8,7 +8,7 @@ export default () => (
       Built with <span class="fire">&nbsp;</span> by
       <a
         href="https://rayyano.vercel.app"
-        style={twi`text-[#017fc0] underline ml-1 italic`}
+        class="diggaj"
       >
         Diggaj
       </a>
